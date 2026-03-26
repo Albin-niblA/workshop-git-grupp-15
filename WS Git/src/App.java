@@ -1,5 +1,7 @@
 public class App {
     static void run(){
-        System.out.println("Calculator v.0.1");
+        System.out.println("1) ADD\n0) Exit"");
+        System.out.print("Choice: ");
+        String choice = new java.util.Scanner(System.in).nextLine();
     }
 }
