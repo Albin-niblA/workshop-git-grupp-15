@@ -6,6 +6,11 @@ public class App {
         if("1".equals(choice) System.out.println(Calculator.add(0, 0));
         double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
         System.out.println("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Exit");
+<<<<<<< Updated upstream
         if("1".equals(choice)) System.out.println(Calculator.add(a, b));
+=======
+        if("1".equals(choice)) System.out.println(Calculator.add(a,b));
+        double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
+>>>>>>> Stashed changes
     }
 }
